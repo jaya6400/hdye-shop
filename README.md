@@ -1,8 +1,10 @@
 # HAdye Shop - Multilingual E-commerce Website
 
-**Website Link:** 
+**Website Link:** [Link](https://hdye-shop-jd.vercel.app/)
 
 **Demo Link:** [Link](https://drive.google.com/file/d/17Ho7iFLUHGXStP3fDR2-9owOLCci3QWI/view?usp=drive_link)
+
+
 
 A modern, multilingual e-commerce website for hair color dyes built with Next.js 15, TypeScript, and Tailwind CSS. Features support for 6 languages with AI-powered translations using Lingo.dev and GROQ API.
 
@@ -20,6 +22,8 @@ A modern, multilingual e-commerce website for hair color dyes built with Next.js
 - 🇫🇷 French (fr)
 - 🇩🇪 German (de)
 - 🇮🇹 Italian (it)
+
+<Image width="914" height="408" alt="Capture" src="https://github.com/user-attachments/assets/bfe65024-6604-4ccd-911f-917b71ecdf44" />
 
 ## ✨ Features
 
@@ -220,7 +224,7 @@ matcher: ['/', '/(de|en|es|fr|hi|it|ja)/:path*']
 
 ## 🚢 Deployed to Vercel
 
-**Link:** 
+**Link:** [Website Link](https://hdye-shop-jd.vercel.app/)
 
 ### Important Notes for Vercel
 
