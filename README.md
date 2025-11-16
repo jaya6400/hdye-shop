@@ -8,7 +8,7 @@ A modern, multilingual e-commerce website for hair color dyes built with Next.js
 
 ![Next.js](https://img.shields.io/badge/Next.js-15-black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-blue)
-![Lingo.dev](https://img.shields.io/badge/Translations-Lingo.dev-6C63FF)(https://lingo.dev)
+![[Lingo.dev](https://img.shields.io/badge/Translations-Lingo.dev-6C63FF)](https://lingo.dev)
 ![GROQ](https://img.shields.io/badge/AI-GROQ-orange)
 ![Docker](https://img.shields.io/badge/Docker-Enabled-blue)
 
