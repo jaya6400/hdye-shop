@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  lingo-translate:
+    build:
+      context: .
+      dockerfile: Dockerfile.lingo
+      args:
+        - GOOGLE_API_KEY=${GOOGLE_API_KEY}
+    volumes:
+      - ./messages:/app/messages
+    environment:
+      - GOOGLE_API_KEY=${GOOGLE_API_KEY}
+    command: sh -c "
+      npx lingo.dev@latest config set llm.googleApiKey ${GOOGLE_API_KEY} &&
+      npx lingo.dev@latest translate messages/en.json --to es --output messages/es.json &&
+      npx lingo.dev@latest translate messages/en.json --to fr --output messages/fr.json &&
+      npx lingo.dev@latest translate messages/en.json --to de --output messages/de.json &&
+      npx lingo.dev@latest translate messages/en.json --to it --output messages/it.json &&
+      echo 'Translation complete!'
+      "

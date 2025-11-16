@@ -1,0 +1,18 @@
+FROM node:20-alpine
+
+# Install dependencies
+RUN apk add --no-cache git bash
+
+WORKDIR /app
+
+# Install lingo.dev globally
+RUN npm install -g lingo.dev@latest
+
+# Copy translation script
+COPY translate.sh ./translate.sh
+RUN chmod +x translate.sh
+
+# Copy messages folder
+COPY messages ./messages
+
+CMD ["./translate.sh"]
