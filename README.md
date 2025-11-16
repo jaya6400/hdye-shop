@@ -2,7 +2,7 @@
 
 **Website Link:** 
 
-**Demo Link:**
+**Demo Link:** [Link](https://drive.google.com/file/d/17Ho7iFLUHGXStP3fDR2-9owOLCci3QWI/view?usp=drive_link)
 
 A modern, multilingual e-commerce website for hair color dyes built with Next.js 15, TypeScript, and Tailwind CSS. Features support for 6 languages with AI-powered translations using Lingo.dev and GROQ API.
 
