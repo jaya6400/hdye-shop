@@ -1,13 +1,15 @@
 # HAdye Shop - Multilingual E-commerce Website
 
-**Link:** 
+**Website Link:** 
+
+**Demo Link:**
 
 A modern, multilingual e-commerce website for hair color dyes built with Next.js 15, TypeScript, and Tailwind CSS. Features support for 6 languages with AI-powered translations using Lingo.dev and GROQ API.
 
 ![Next.js](https://img.shields.io/badge/Next.js-15-black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-blue)
 ![Docker](https://img.shields.io/badge/Docker-Enabled-blue)
-![License](https://img.shields.io/badge/License-MIT-green)
+![Lingo](https://lingo.dev)
 
 ## 🌍 Supported Languages
 
@@ -311,7 +313,7 @@ ls messages/
 4. Push to the branch (`git push origin feature/new-feature`)
 5. Open a Pull Request
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - [Next.js](https://nextjs.org/) - React framework
 - [next-intl](https://next-intl-docs.vercel.app/) - Internationalization
