@@ -53,6 +53,7 @@ export default function Navbar() {
               className="border border-gray-300 rounded-md px-3 py-1 focus:outline-none focus:ring-2 focus:ring-purple-500"
             >
               <option value="en">English</option>
+              <option value="hi">Hindi</option>
               <option value="es">Español</option>
               <option value="fr">Français</option>
               <option value="de">Deutsch</option>

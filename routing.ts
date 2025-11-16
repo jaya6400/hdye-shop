@@ -1,4 +1,4 @@
-export const locales = ['en', 'es', 'fr', 'de', 'it'] as const;
+export const locales = ['en', 'es', 'fr', 'de', 'it', 'hi'] as const;
 export type Locale = (typeof locales)[number];
 
 export const routing = {

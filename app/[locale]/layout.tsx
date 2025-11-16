@@ -11,11 +11,14 @@ export function generateStaticParams() {
 
 export default async function LocaleLayout({
   children,
-  params: { locale }
+  params
 }: {
   children: React.ReactNode;
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 }) {
+  // ⬅️ MUST await params inside the function
+  const { locale } = await params;
+
   if (!routing.locales.includes(locale as any)) {
     notFound();
   }
@@ -27,9 +30,7 @@ export default async function LocaleLayout({
       <body>
         <NextIntlClientProvider messages={messages}>
           <Navbar />
-          <main className="min-h-screen bg-gray-50">
-            {children}
-          </main>
+          <main className="min-h-screen bg-gray-50">{children}</main>
         </NextIntlClientProvider>
       </body>
     </html>
