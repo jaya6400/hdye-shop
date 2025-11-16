@@ -2,7 +2,7 @@
 
 **Website Link:** [Link](https://hdye-shop-jd.vercel.app/)
 
-**Demo Link:** [Link](https://drive.google.com/file/d/17Ho7iFLUHGXStP3fDR2-9owOLCci3QWI/view?usp=drive_link)
+**Demo Link:** [Link](https://youtu.be/ZpghCiSz_ww?si=1XkSH2TJgctxcIKC)
 
 
 
